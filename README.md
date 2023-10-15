@@ -1,0 +1,1 @@
+A quick utility to convert minecraft's custom .tr translation files to .po and back, retaining all formatting.

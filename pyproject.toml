@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "minetest-tr-to-po"
+version = "0.1.0"
+description = ""
+authors = ["Vuizur <Vuizur@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "minetest_tr_to_po"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+polib = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
